@@ -63,12 +63,12 @@ function playGame(){
 
 function loadGA(){
     var  r = document.createElement("script");
-	r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-7GMX7SLKHK"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
+	r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-Z7BDFDCPBQ"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-7GMX7SLKHK', {
+        gtag('config', 'G-Z7BDFDCPBQ', {
             'cookie_flags': 'SameSite=None;Secure'
           });
     },document.head.appendChild(r);
